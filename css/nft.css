@@ -1,0 +1,99 @@
+:root{
+    --Very-dark-blue : hsl(217, 54%, 11%);
+    --Very-dark-blue2 : hsl(216, 50%, 16%);
+    --Very-dark-blue3 : hsl(215, 32%, 27%);
+    --White : hsl(0, 0%, 100%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan : hsl(178, 100%, 50%);
+}
+
+*{
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--Very-dark-blue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countiner{
+    width: 400px;
+    background-color: var(--Very-dark-blue2);
+    border-radius: 16px;
+    box-shadow: hsl(217, 42%, 9%) 0px 20px 30px 30px;
+
+}
+.countiner .card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+h1 {
+    color: white;
+    margin-top: 16px ;
+}
+h2{
+    font-size: 20px;
+    color: var(--Soft-blue);
+}
+h3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h3 b{
+    color: var(--Cyan);
+    margin: 10px;
+}
+h3 p{
+    color: var(--Soft-blue);
+    font-size: 14px;
+}
+h3 img{
+    vertical-align: middle;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 14px;
+}
+h4 img {
+    width: 40px;
+    border-style: solid;
+    border-radius: 50%;
+    color: white;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+h4{
+    margin-top: 16px;
+    color: var(--Soft-blue);
+}
+h4 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+.details hr {
+    width: 100%;
+    color: var(--Soft-blue);
+}
